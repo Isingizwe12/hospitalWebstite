@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -7,9 +8,9 @@ function Navbar() {
         <span className='text-gray-700 font-medium cursor-pointer hover:opacity-80'>H.M</span>
         <div>
             <ul className='flex gap-3 text-gray-700 font-medium '>
-                <li className='cursor-pointer hover:opacity-80'>Home</li>
-                <li className='cursor-pointer hover:opacity-80'>About</li>
-                <li className='cursor-pointer hover:opacity-80'>Doctors</li>
+                <li className='cursor-pointer hover:opacity-80'><Link to='/'>Home</Link></li>
+                <li className='cursor-pointer hover:opacity-80'><Link to='/about'>About</Link></li>
+                <li className='cursor-pointer hover:opacity-80'><Link to='/doctors'>Doctors</Link></li>
                 <li className='cursor-pointer hover:opacity-80'>Services</li>
                 
             </ul>

@@ -16,7 +16,7 @@ function HomePage() {
   from routine check-ups to advanced treatments. 
 </p>
 
-<button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition duration-300">
+<button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
   Book Appointment
 </button>
 
