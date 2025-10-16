@@ -11,11 +11,11 @@ function Doctors() {
     { image:doc2,name: 'Grace', specialization: 'Pediatrician' }
   ];
   return (
-    <div className="p-8">
-      <h1 className="text-4xl font-extrabold text-center text-blue-600 mb-8">
+    <div className="p-8 bg-blue-50">
+      <h1 className="text-4xl font-extrabold text-center text-blue-500 mb-8">
         Our Doctors
       </h1>
-      
+       <div className="w-25 h-1 bg-blue-400 mx-auto mb-10 rounded"></div>
     <div className='flex gap-6 justify-center mt-8'>
         
      {doctors.map((doc,index)=>(

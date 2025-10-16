@@ -4,11 +4,11 @@ import docImage from '../assets/images/doc.jpg';
 function HomePage() {
   return (
    <>
-   <div className='flex gap-8 mt-1 bg-gradient-to-r from-blue-100 to-blue-200 py-12 shadow-md'>
+   <div className='flex gap-8 mt-1 bg-gradient-to-r from-blue-50 to-blue-300 py-12 shadow-md'>
         
       <section className='flex-3 ml-8'>
       <h1 className="text-3xl md:text-5xl font-extrabold text-gray-800 mb-6 leading-tight">
-      Your Health, <span className="text-blue-600">Our Priority</span>
+      Your Health, <span className="text-blue-500">Our Priority</span>
     </h1>
      <p className="text-gray-700 text-lg leading-relaxed max-w-2xl mb-6">
   At H.M, we provide compassionate and high-quality healthcare for patients of all ages. 

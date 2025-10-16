@@ -11,7 +11,7 @@ function Navbar() {
                 <li className='cursor-pointer hover:opacity-80'><Link to='/'>Home</Link></li>
                 <li className='cursor-pointer hover:opacity-80'><Link to='/about'>About</Link></li>
                 <li className='cursor-pointer hover:opacity-80'><Link to='/doctors'>Doctors</Link></li>
-                <li className='cursor-pointer hover:opacity-80'>Services</li>
+                <li className='cursor-pointer hover:opacity-80'><Link to='/services'>Services</Link></li>
                 
             </ul>
         </div>
