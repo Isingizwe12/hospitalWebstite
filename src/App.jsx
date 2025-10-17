@@ -5,6 +5,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import About from './components/about'
 import Doctors from './components/doctors'
 import Services from './components/services'
+import Footer from './components/footer'
 
 function App() {
   
@@ -21,7 +22,7 @@ function App() {
 
       </Routes>
     
-      
+      <Footer />
     </Router>
   )
 }
