@@ -1,5 +1,6 @@
 import React from 'react'
 import docImage from '../assets/images/doc.jpg';
+import BookAppointement from './bookAppointement';
 
 function HomePage() {
   return (
@@ -15,10 +16,7 @@ function HomePage() {
   Our expert doctors and medical staff offer personalized care across multiple specialties, 
   from routine check-ups to advanced treatments. 
 </p>
-
-<button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow-md transition duration-300 cursor-pointer">
-  Book Appointment
-</button>
+  <BookAppointement/>
 
       </section>
      <section className='flex-1 flex justify-center items-center mr-14'>
